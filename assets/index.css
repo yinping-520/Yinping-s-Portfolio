@@ -47,6 +47,12 @@ li a{
     background-image:url("./background.png");
 
 }
+.myphoto{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+
+}
 
 main{
     max-width: 992px;
