@@ -6,12 +6,10 @@
 
 body{
     font-family: 'Open Sans',sans-serif;
-    
-
 }
 
 header{
-    min-width: 992px;
+    /* min-width: 992px; */
     height:100px;
     background-color:#303c6c;
     display:flex;
@@ -43,7 +41,6 @@ li a{
 }
 
 .pattern-image{
-    min-width: 992px;
     height:180px;
     width:100%;
     margin-bottom: 5px;
@@ -52,8 +49,8 @@ li a{
 }
 
 main{
-    width:992px;
-    margin:auto;
+    max-width: 992px;
+    margin:0 auto;
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -121,7 +118,6 @@ section div {
 #tea-cozy:hover{
     box-shadow:10px 0 50px red;
     transition: all 300ms ease;
-
 }
 #choredoor:hover::before{
     background-color: #f4976c;
@@ -183,4 +179,19 @@ footer li{
 #phone{
     background-color: #f4976c;
     color:#303c6c;
+}
+
+@media screen and (max-width: 768px) {
+    article, section div{
+        width:100%;
+        flex-wrap: wrap;
+    }
+    section h1{
+        padding: 20px;
+        margin-right:10px;
+        border-right: none;
+    }
+    footer{
+        flex-wrap: wrap;
+    }
 }
