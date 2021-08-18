@@ -17,12 +17,13 @@ Change the size of the screen to see the responsive layout.
 
 ## Links
 [Github link](https://github.com/yinping-520/the-portfolio-of-yinping)
+
 [Github deplyed link](https://yinping-520.github.io/the-portfolio-of-yinping/)
 
 ## Outcome:
-![portfolio demo](
-    
-)
+![portfoli demo1](./website.png)
+![portfolio demo2](./portfolio.png)
+
 
 
 
