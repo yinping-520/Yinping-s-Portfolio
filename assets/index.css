@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    max-width: 992px;
+    max-width: 1200px;
     height:100px;
     background-color:#303c6c;
     display:flex;
@@ -42,7 +42,7 @@ li a{
 
 .pattern-image{
     height:180px;
-    max-width:992px;
+    max-width:1200px;
     margin-bottom: 5px;
     background-image:url("./background.png");
 
@@ -55,7 +55,7 @@ li a{
 }
 
 main{
-    max-width: 992px;
+    max-width: 1200px;
     margin:0 auto;
     display:flex;
     justify-content: center;
@@ -177,15 +177,19 @@ section div {
 
 
 footer{
-    width:992px;
+    min-width:1200px;
     height:100px;
     background-color: #303c6c;
     color:white;
     display:flex;
     align-items: center;
-    justify-content: space-around;
-
+    justify-content: space-around; 
     
+}
+footer div{
+    color:white;
+    display:flex;
+    align-items: center;
 }
 footer li{
     list-style-type: none;
@@ -196,7 +200,8 @@ footer li{
     color:#303c6c;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 992px) {
     article, section div{
         width:100%;
         flex-wrap: wrap;
@@ -206,7 +211,11 @@ footer li{
         margin-right:10px;
         border-right: none;
     }
-    footer{
-        flex-wrap: wrap;
+    footer, footer div{
+        height:200px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
     }
+    
 }
