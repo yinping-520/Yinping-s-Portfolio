@@ -177,10 +177,10 @@ section div {
 
 
 footer{
+    width:992px;
+    height:100px;
     background-color: #303c6c;
     color:white;
-    min-width:992px;
-    height:100px;
     display:flex;
     align-items: center;
     justify-content: space-around;
