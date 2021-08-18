@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    /* min-width: 992px; */
+    max-width: 992px;
     height:100px;
     background-color:#303c6c;
     display:flex;
@@ -42,7 +42,7 @@ li a{
 
 .pattern-image{
     height:180px;
-    width:100%;
+    max-width:992px;
     margin-bottom: 5px;
     background-image:url("./background.png");
 
@@ -179,7 +179,7 @@ section div {
 footer{
     background-color: #303c6c;
     color:white;
-    width:100%;
+    min-width:992px;
     height:100px;
     display:flex;
     align-items: center;
