@@ -1,75 +1,56 @@
 <!DOCTYPE html>
-<!-- saved from url=(0081)file:///Users/yinpinggao/Activities/homework2/the-portfolio-of-yinping/index.html -->
+<!-- saved from url=(0074)file:///Users/yinpinggao/Activities/homework4/coding-assessment/index.html -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Document_files/index.css" type="text/css">
     <title>Document</title>
-    <link rel="stylesheet" href="./Document_files/index.css">
 </head>
 
 <body>
-    <header>
-        <h1>Hello! I'm Yinping</h1>
-        <nav>
-            <li><a href="file:///Users/yinpinggao/Activities/homework2/the-portfolio-of-yinping/index.html#introduction">About Me</a></li>
-            <li><a href="file:///Users/yinpinggao/Activities/homework2/the-portfolio-of-yinping/index.html#my-work">Work</a></li>
-            <li><a href="file:///Users/yinpinggao/Activities/homework2/the-portfolio-of-yinping/index.html#contact-me">Contact Me</a></li>
-            <li><a href="file:///Users/yinpinggao/Activities/homework2/the-portfolio-of-yinping/index.html#">Resume</a></li>
-        </nav>
-
-
+    <header class="tracker">
+        <h1 class="score">View Highscore</h1>
+        <h1 class="timer">Time:</h1>
+            <p id="time" style="font-size: 32px">54</p>
     </header>
-    <div class="pattern-image">
-        <img src="./Document_files/myphoto.png" alt="my-photo" class="myphoto">
+
+    <main class="container">
+        <div id="question-container">
+            <div id="question">What does CSS stand for?</div>
+            <div id="answer-btns" class="btn-grid">
+                <button class="btn">Cascade style sheets</button>
+                <button class="btn">Color and style sheets</button>
+                <button class="btn">Cascading style sheets</button>
+                <button class="btn">None of the above</button>
+            </div>
+        </div>
+        <div class="control hide">
+            <h2>Coding Quiz Challenges</h2>
+            <p>Please read the questions and options carefully and choose the appropriate answer. Click the answer and you will be moved to the next questions. Good luck!</p>
+            <button id="start-btn">Start</button>
+        </div>
+
+        <div id="feedback"></div>
+    </main>
+        
+    <div>
+        <form id="input" class="hide" method="POST">
+            <label for="name"> Enter Your Initials </label>
+            <input type="text" id="name" name="name">
+            <button id="submit">Submit</button>
+        </form>
+        
+        <div id="score">
+            
+        </div>
+        
     </div>
 
-    <main>
-        <article>
-            <h1 id="introduction">About Me</h1>
-
-            <p>My name is Yinping, and I’m a full-stack web-developer. If web languages are like tools, then I have
-                HTML,CSS, Javascript, React.js on my tool belt. Becides programing languages, I am also fluent in
-                Chinese. I like solving problems and I LOVE to learn!</p>
-        </article>
-        <section>
-            <h1 id="my-work">My Work</h1>
-            <div>
-                <div id="choredoor" class="description">
-                    <img id="image1" class="work" src="./Document_files/chore-door.png" alt="chore door">
-                </div>
-                <div id="box-paper" class="description">
-                    <img id="image2" class="work" src="./Document_files/rock-paper-scissor-img.png" alt="rock paper scissors">
-                </div>
-                <div id="seo">
-                    <img id="image3" class="work" src="./Document_files/seo.png" alt="SEO">
-                </div>
-                <div id="sleep-debt">
-                    <img id="image4" class="work" src="./Document_files/sleep_debt_fb.png" alt="sleep debt">
-                </div>
-                <div id="tea-cozy">
-                    <img id="image5" class="work" src="./Document_files/tea-cozy.png" alt="web design">
-                </div>
-
-            </div>
-        </section>
-
-        <footer>
-            <h1 id="contact-me">Contact Me</h1>
-            <div id="websites">
-                <li id="phone">Phone:555.555.5555</li>
-                <li>Email:<a href="mailto:yinpng.gao@qq.com">yinping.gao@qq.com</a></li>
-                <li><a href="https://github.com/yinping-520">GitHub</a></li>
-                <li><a href="file:///Users/yinpinggao/Activities/homework2/the-portfolio-of-yinping/www.linkedin.com/in/yinping-gao">LinkedIn</a></li>
-            </div>
-
-        </footer>
+        
 
 
-
-
-    </main>
-
+    <script src="./Document_files/javascript.js" rel="script" type="text/javascript"></script>
 
 
 </body></html>
