@@ -115,16 +115,16 @@ section div {
 }
 
 #choredoor:hover,
-#box-paper:hover,
-#seo:hover,
-#sleep-debt:hover,
-#tea-cozy:hover{
+#recipe:hover,
+#quiz:hover,
+#weather:hover
+{
     box-shadow:10px 0px 50px red;
     transition: all 300ms ease;
     cursor:pointer;
     position:relative;
-    top:-25px;
-    left:-35px;
+    top:-15px;
+    left:-15px;
     width:500px;
     height:auto;
     display:block;
@@ -136,41 +136,34 @@ section div {
     color:aliceblue;
     font-weight: 500px;
     border-color:#303c6c;
-    border-style: dashed;
-    content: "Title:Chore Door.   Skill Used:Javascript;HTML;CSS";
+    border-style: solid;
+    content: "Skill Used:Javascript HTML CSS";
 }
-#box-paper:hover::before{
+#weather:hover::before{
     background-color: #f4976c;
     color:aliceblue;
     font-weight: 500px;
     border-color:#303c6c;
-    border-style: dashed;
-    content: "Title:box paper scissors.  Skill Used:Javascript";
+    border-style: solid;
+    content: "Skill Used:Javascript Third-Party-API Bootstrap";
 }
-#seo:hover::before{
+#quiz:hover::before{
     background-color: #f4976c;
     color:aliceblue;
     font-weight: 500px;
     border-color:#303c6c;
-    border-style: dashed;
-    content: "Title:SEO. Skill Used:HTML;CSS";
+    border-style: solid;
+    content: "Skill Used:HTML;CSS; Javascript";
 }
-#sleep-debt:hover::before{
+#recipe:hover::before{
     background-color: #f4976c;
     color:aliceblue;
     font-weight: 500px;
     border-color:#303c6c;
-    border-style: dashed;
-    content: "Title:Sleep debt calculator. Skill Used:Javascript";
+    border-style: solid;
+    content: "Skill Used:Javascript CSS Third-Party API HTML Pure-CSS";
 }
-#tea-cozy:hover::before{
-    background-color: #f4976c;
-    color:aliceblue;
-    font-weight: 500px;
-    border-color:#303c6c;
-    border-style: dashed;
-    content: "Title:cozy tea. Skill Used:HTML;CSS";
-}
+
 
 
 footer{
