@@ -29,12 +29,14 @@ nav{
     list-style-type:none;
 }
 
+
 li a{
     color: #f4976c;
     text-decoration: underline;
     padding:5px;
     margin:5px;
-    font-size: 20px;
+    font-size: 18px;
+    list-style: none;
 }
 
 .pattern-image{
@@ -102,7 +104,7 @@ section div {
     display:flex;
     flex-wrap: wrap;
     justify-content:left;
-    background-image: linear-gradient(45deg, #fbe8a6, #f4976c);
+    background-image: #f4976c;
     position:relative;
     
 }
@@ -114,7 +116,7 @@ section div {
     margin-left: 50px;
 }
 
-#choredoor:hover,
+/* #choredoor:hover,
 #recipe:hover,
 #quiz:hover,
 #weather:hover
@@ -162,7 +164,7 @@ section div {
     border-color:#303c6c;
     border-style: solid;
     content: "Skill Used:Javascript CSS Third-Party API HTML Pure-CSS";
-}
+} */
 
 
 
@@ -184,10 +186,10 @@ footer li{
     list-style-type: none;
     padding:10px;
 }
-#phone{
+/* #phone{
     background-color: #f4976c;
     color:#303c6c;
 }
-
+ */
 
 

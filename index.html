@@ -12,15 +12,16 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/5922c9a504.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <header>
         <div class="container-fluid">
             <div class="row">
-                <h1 class="col-12 col-md-6">Hello! I'm Yinping</h1>
+                <h1 class="col-12 col-md-6">Welcome to My Website</h1>
                 <nav class="col navbar justify-content-end">
-                    <li class="nav-item"><a href="#introduction">About Me</a></li>
+                    <li class="nav-item"><a href="#introduction">My Skills</a></li>
                     <li class="nav-item"><a href="#my-work">Work</a></li>
                     <li class="nav-item"><a href="#contact-me">Contact Me</a></li>
                     <li class="nav-item"><a href="./assets/Yinping_Resume.pdf">Resume</a></li>                
@@ -34,99 +35,265 @@
     </header>
 
     <div class="container-fluid">
-      <div class="row">
-        <div class="pattern-image">
-          <img src="./assets/myphoto.png" alt="my-photo" class="myphoto" />
+      <div>
+        <div class="pattern-image row justify-content-evenly align-items-center">
+          <div class="col col-3">
+            <img src="./assets/myphoto.png" alt="my-photo" class="myphoto" />
+          </div>
+          <div class="col col-9 col-md-5 align-middle">
+            <h2>My name is Yinping, and I’m a full-stack web-developer. </h2>
+          </div>
         </div>
 
-        <main class=>
-          <article class="row">
-            <h1 id="introduction" class="col-sm-12 col-md-4 col-lg-3">About Me</h1>
+        <main>
+          <article class="row my-5">
+            <h1 id="introduction" class="col-sm-12 col-md-4 col-lg-3">My Skills</h1>
 
-            <p class="col-sm-12 col-md-8 col-lg-9">
-              My name is Yinping, and I’m a full-stack web-developer. If web
-              languages are like tools, then I have HTML, CSS, Javascript,
-              React.js on my tool belt. Besides programming languages, I am also
-              fluent in Chinese. I like solving problems and I LOVE to learn!
-            </p>
+            <div class="col-sm-12 col-md-8 col-lg-9">
+              <div class="progress my-2" style="height: 20px;">
+                <div class="progress-bar" role="progressbar" style="width: 95%; font-family:  Helvetica, sans-serif, Arial;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">HTML 95%
+                </div>
+              </div>
+              <div class="progress my-2" style="height: 20px;">
+                <div class="progress-bar" role="progressbar" style="width: 70%;  font-family:  Helvetica, sans-serif, Arial;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Javascript 70%</div>
+              </div>
+              <div class="progress my-2" style="height: 20px;">
+                <div class="progress-bar" role="progressbar" style="width: 75%; font-family:  Helvetica, sans-serif, Arial;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">CSS 75%</div>
+              </div>
+              <div class="progress my-2" style="height: 20px;">
+                <div class="progress-bar" role="progressbar" style="width: 80%; font-family:  Helvetica, sans-serif, Arial;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">React 80%</div>
+              </div>
+              <div class="progress my-2" style="height: 20px;">
+                <div class="progress-bar" role="progressbar" style="width: 70%; font-family:  Helvetica, sans-serif, Arial;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Node.js 70%</div>
+              </div>
+              <div class="progress my-2" style="height: 20px;">
+                <div class="progress-bar" role="progressbar" style="width: 73%; font-family:  Helvetica, sans-serif, Arial;" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100">Express.js 73%</div>
+              </div>
+              
+              <div class="progress my-2" style="height: 20px;">
+                <div class="progress-bar" role="progressbar" style="width: 60%; font-family:  Helvetica, sans-serif, Arial;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">MongoDB 60%</div>
+              </div>
+              <div class="progress my-2" style="height: 20px;">
+                <div class="progress-bar" role="progressbar" style="width: 85%; font-family:  Helvetica, sans-serif, Arial;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">MySQL 850%</div>
+              </div>
+            </div>
           </article>
 
           <section class="row">
             <h1 id="my-work" class="col-12 col-md-4 col-lg-3">My Work</h1>
-                <div class="row row-cols-1 row-cols-md-2 g-4">
 
-                    <div class="col">
-                      <div class="card" id="recipe">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
+
+                  <div class="col py-2">
+                    <div class="card" id="recipe">
+                      <div>
                         <a href="https://yinping-520.github.io/recipe-in-hand/">
-                            <img src="./assets/recipebook.png " class="card-img-top" alt="recipes">
-                            <div class="card-body">
-                                <h5 class="card-title">Recipe in Hand</h5>
-                            </div>
-                        </a>
-                       </div>
-                    </div>
-
-                    <div class="col">
-                      <div class="card" id="choredoor">
-                        <a href="https://yinping-520.github.io/Chore-Door/">
-                            <img src="./assets/chore-door.png" class="card-img-top" alt="chore door game">
-                            <div class="card-body">
-                              <h5 class="card-title">Chore Door Game</h5>
-                            </div>
+                          <img src="./assets/recipebook.png " class="card-img-top img-thumbnail img-fluid" alt="recipes" style="width: 500px; height: 300px;">
                         </a>
                       </div>
-                    </div>
-
-                    <div class="col">
-                      <div class="card" id="weather">
-                        <a href="https://yinping-520.github.io/weather-dashboard/">
-                            <img src="./assets/weatherdashboard.png" class="card-img-top" alt="Weather dashboard">
-                            <div class="card-body">
-                             <h5 class="card-title">Weather Dashboard</h5>
-                            </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Recipe in Hand </h5>
+                        <a href="https://github.com/yinping-520/recipe-in-hand">
+                          <i class="fab fa-github fa-lg fa-pull-right"></i></a>
+                
+                        <p>Description:This is a group project. We built this application to help user to quickly find recipes for food and drinks.</p>
+                        <h6>List of technologies applied:</h6>
+                        <ul>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>JAVASCRIPT</li>
+                          <li>Framework: Pure CSS</li>
+                          <li>Third Party API: TheMealDB</li>
+                          <li>Third Party API: TheCocktailDB</li>
+                        </ul>
+                          
+                      </div>
+                     </div>
+                  </div>
+                  
+                  <div class="col py-2">
+                    <div class="card">
+                      <div>
+                        <a href="https://eom-10-4.herokuapp.com/login">
+                          <img src="./assets/musicapp.png" class="card-img-top img-thumbnail img-fluid" alt="recipes" style="width: 500px; height: 300px;">
                         </a>
                       </div>
-                    </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Essence of Music </h5>
+                        <a href="https://github.com/yinping-520/Essence_Of_Music">
+                          <i class="fab fa-github fa-lg fa-pull-right"></i></a>
+                
+                        <p>Description:This is a group project. We built this application to help user to quickly find songs they like.the feature of this app is that we use Model–view–controller (MVC) Modular Framework to build this app</p>
+                        <h6>List of technologies applied:</h6>
+                        <ul>
+                          <li>Handlebars</li>
+                          <li>CSS & Bootstrap</li>
+                          <li>Javascript</li>
+                          <li>Node.js/ npm packages</li>
+                          <li>Express.js</li>
+                          <li>MySQL & Sequelize</li>
+                          
+                        </ul>
+                          
+                      </div>
+                     </div>
+                  </div>
 
-
-                    <div class="col">
-                      <div class="card" id="quiz">
-                        <a href="https://yinping-520.github.io/coding-assessment/">
-                            <img src="./assets/quiz.png" class="card-img-top" alt="SEO">
-                            <div class="card-body">
-                             <h5 class="card-title">Coding assessment</h5>
-                            </div>
+                  <div class="col py-2">
+                    <div class="card">
+                      <div>
+                        <a href="https://arcane-hamlet-34907.herokuapp.com/">
+                          <img src="./assets/roadtrip.png" class="card-img-top img-thumbnail img-fluid" alt="destinations" style="width: 500px; height: 300px;">
                         </a>
+                      </div>
+                      <div class="card-body">
+                         <h5 class="card-title">National road trip</h5>
+                         <a href="https://github.com/yinping-520/national-roadtrip">
+                          <i class="fab fa-github fa-lg fa-pull-right"></i>
+                         </a>
+                         <p>Description:This is a group project. This application provide users the  information about national parks in the US, it also allows users to save parks as  their itinarary</p>
+                         <h6>List of technologies applied:</h6>
+                            <ul>
+                              <li>React</li>
+                              <li>CSS</li>
+                              <li>MongoDB/Mongoose</li>
+                              <li>Appolo Server & Apollo Client</li>
+                              <li>GraphQL</li>
+                              <li>Node.js</li>
+                              <li>Express.js</li>
+                            </ul>
                       </div>
                     </div>
                   </div>
+
+                  <div class="col py-2">
+                    <div class="card" id="choredoor">
+                      <div>
+                        <a href="https://yinping-520.github.io/Chore-Door/">
+                          <img src="./assets/choredoor.png" class="card-img-top img-thumbnail img-fluid" alt="chore door game" style="width: 500px; height: 300px;">
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Chore Door Game</h5>
+                        <a href="https://github.com/yinping-520/Chore-Door">
+                          <i class="fab fa-github fa-lg fa-pull-right"></i>
+                        </a>
+                        <p>Description:This is a personal project. This is a game that you will win if you see the robot the last.</p>
+                        <h6>List of technologies applied:</h6>
+                        <ul>
+                          <li>JAVASCRIPT</li>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col py-2">
+                    <div class="card">
+                      <div>
+                        <a href="https://yinping-520.github.io/weather-dashboard/">
+                          <img src="./assets/weather.png" class="card-img-top img-thumbnail img-fluid" alt="Weather dashboard" style="width: 500px; height: 300px;">
+                        </a>
+                      </div>
+                      <div class="card-body">
+                       <h5 class="card-title">Weather Dashboard</h5>
+                       <a href="https://github.com/yinping-520/weather-dashboard">
+                        <i class="fab fa-github fa-lg fa-pull-right"></i>
+                      </a>
+                      <p>Description:This application help user to quickly find recipes for food and drinks.</p>
+                        <h6>List of technologies applied:</h6>
+                        <ul>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>JAVASCRIPT</li>
+                          <li>Third Party API: Weather API</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col py-2">
+                    <div class="card">
+                      <div>
+                        <a href="https://yinping-520.github.io/musicon/">
+                          <img src="./assets/musicon.png" class="card-img-top img-thumbnail img-fluid" alt="Weather dashboard" style="width: 500px; height: 300px;">
+                        </a>
+                      </div>
+                      <div class="card-body">
+                       <h5 class="card-title">Musicon</h5>
+                       <a href="https://github.com/yinping-520/musicon">
+                        <i class="fab fa-github fa-lg fa-pull-right"></i>
+                      </a>
+                      <p>Description:This application help user to quickly find recipes for food and drinks.</p>
+                        <h6>List of technologies applied:</h6>
+                        <ul>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>JAVASCRIPT</li>
+                          <li>Framework: Handlebars</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col py-2">
+                    <div class="card">
+                      <div>
+                        <a href="https://yinping-520.github.io/tea-cozy/">
+                          <img src="./assets/produce.png" class="card-img-top img-thumbnail img-fluid" alt="Weather dashboard" style="width: 500px; height: 300px;">
+                        </a>
+                      </div>
+                      <div class="card-body">
+                       <h5 class="card-title">Tea Cozy</h5>
+                       <a href="https://github.com/yinping-520/tea-cozy">
+                        <i class="fab fa-github fa-lg fa-pull-right"></i>
+                      </a>
+                      <p>Description:This application help user to quickly find recipes for food and drinks.</p>
+                        <h6>List of technologies applied:</h6>
+                        <ul>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
         </main>
 
         <footer >
             
-            <div class="container-fluid">
-                
-                <div class="row">
-                    <div class="justify-content-center">
-                        <h1 id="contact-me" >Contact Me</h1>
-                    </div>
-                    <div id="websites" class="col row">
-                        
-                        <div class="col justify-content-center">
-                            <li id="phone">Phone:9802224560</li>
-                        </div>
-                        <div class="col justify-content-center">
-                            <li>Email:<a href="mailto:yinpng.gao@qq.com">yinping.gao@qq.com</a></li>
-                        </div>
-                        <div class="col justify-content-center">
-                            <li><a href="https://github.com/yinping-520">GitHub</a></li>
-                        </div>
-                        <div class="col justify-content-center">
-                            <li><a href="https://www.linkedin.com/in/yinping-gao">LinkedIn</a></li>
-                        </div>
-                    </div>
-                            
+          <div class="container-fluid justify-content-center">
+            <div class="row justify-content-center">
+                <div>
+                    <h3 class="text-center col-12 " id="contact-me">Contact Me</h3>
                 </div>
+                <div id="websites" class="col-12 row ">
+                    
+                    <div class="col ">
+                      <i class="fas fa-mobile-alt"></i>
+                      <li id="phone" style="color:#f4976c">(980)-222-4560</li>
+                    </div>
+                    <div class="col ">
+                      <i class="far fa-envelope"></i>
+                      <li><a href="mailto:yinping.kot@gmail.com">yinping.kot@gmail.com</a></li>
+                    </div>
+                    <div class="col ">
+                      
+                      <i class="fab fa-github"></i>
+                      <li><a href="https://github.com/yinping-520">Github
+                          </a></li>
+                    </div>
+                    <div class="col">
+                      <i class="fab fa-linkedin"></i>
+                      <li><a href="https://www.linkedin.com/in/yinping-gao">LinkedIn
+                      </a></li>
+                    </div>
+                </div>
+                          
+              </div>
 
             </div>
             
