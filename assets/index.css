@@ -1,4 +1,4 @@
-*{
+/* *{
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -6,40 +6,38 @@
 
 body{
     font-family: 'Open Sans',sans-serif;
-}
+} */
 
-header{
+/* header{
     height:100px;
-    background-color:#303c6c;
+    background-color:#f4976c; 
     display:flex;
     justify-content:space-between;
     align-items: center; 
     flex-wrap: wrap;
-}
-header h1{
-    background:#f4976c;
-    color:#303c6c;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
+} */
+/* header h1{
+    /* background:#f4976c; */
+    /* color:#f4976c; */
+    /* display:flex;
+    align-items: center; } */
 
-nav{
+/* nav{
     display:inline-flex;
     list-style-type:none;
-}
+} */
 
 
-li a{
+/* li a{
     color: #f4976c;
     text-decoration: underline;
     padding:5px;
     margin:5px;
     font-size: 18px;
     list-style: none;
-}
+} */
 
-.pattern-image{
+/* .pattern-image{
     height:180px;
     margin-bottom: 5px;
     background-image:url("./background.png");
@@ -50,8 +48,8 @@ li a{
     height:200px;
     border-radius: 100%;
 
-}
-
+} */
+/* 
 main{
     max-width: 1200px;
     margin:0 auto;
@@ -114,7 +112,7 @@ section div {
     max-height:300px;   
     padding-left: 10px;
     margin-left: 50px;
-}
+} */
 
 /* #choredoor:hover,
 #recipe:hover,
@@ -170,7 +168,7 @@ section div {
 
 footer{
     height:200px;
-    background-color: #303c6c;
+    background-color:#dddddd;
     color:white;
     display:flex;
     align-items: center;
@@ -178,7 +176,7 @@ footer{
     
 }
 footer div{
-    color:white;
+    color:black;
     display:flex;
     align-items: center;
 }
@@ -189,7 +187,7 @@ footer li{
 /* #phone{
     background-color: #f4976c;
     color:#303c6c;
-}
- */
+} */
+
 
 
