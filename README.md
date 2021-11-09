@@ -21,7 +21,7 @@ Change the size of the screen to see the responsive layout.
 [Github deplyed link](https://yinping-520.github.io/the-portfolio-of-yinping/)
 
 ## Outcome:
-![portfoli demo1](./assets/readme1.png)
+
 
 ![portfoli demo2](./assets/readme2.png)
 
